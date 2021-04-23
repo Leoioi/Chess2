@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Chessy2.Chessy2">
+  <grid id="27dc6" binding="mainPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="1007" height="648"/>
+    </constraints>
+    <properties>
+      <maximumSize width="500" height="500"/>
+      <minimumSize width="500" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="ce570" layout-manager="FlowLayout" hgap="5" vgap="50" flow-align="1">
+        <constraints/>
+        <properties>
+          <preferredSize width="30" height="600"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2580" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="8   "/>
+            </properties>
+          </component>
+          <component id="a1d2b" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="7   "/>
+            </properties>
+          </component>
+          <component id="97239" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="6   "/>
+            </properties>
+          </component>
+          <component id="cf394" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="5   "/>
+            </properties>
+          </component>
+          <component id="67004" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="4   "/>
+            </properties>
+          </component>
+          <component id="c0351" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="3   "/>
+            </properties>
+          </component>
+          <component id="b30a0" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="2   "/>
+            </properties>
+          </component>
+          <component id="5ae43" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="1   "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6c6b2" binding="Poton" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+        <constraints/>
+        <properties>
+          <preferredSize width="600" height="600"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="59267" class="javax.swing.JButton" binding="pos0">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="85006" class="javax.swing.JButton" binding="pos1">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="e33f" class="javax.swing.JButton" binding="pos2">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="8016a" class="javax.swing.JButton" binding="pos3">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="e4231" class="javax.swing.JButton" binding="pos4">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="4c1ca" class="javax.swing.JButton" binding="pos5">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="e89b2" class="javax.swing.JButton" binding="pos6">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="a50e1" class="javax.swing.JButton" binding="pos7">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="6e2e6" class="javax.swing.JButton" binding="pos8">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="fbde4" class="javax.swing.JButton" binding="pos9">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="5123f" class="javax.swing.JButton" binding="pos10">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="43710" class="javax.swing.JButton" binding="pos11">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="9d663" class="javax.swing.JButton" binding="pos12">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="2a4cc" class="javax.swing.JButton" binding="pos13">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="57f0c" class="javax.swing.JButton" binding="pos14">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="2c88a" class="javax.swing.JButton" binding="pos15">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="ccdb4" class="javax.swing.JButton" binding="pos16">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="6b487" class="javax.swing.JButton" binding="pos17">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="f9848" class="javax.swing.JButton" binding="pos18">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="6c431" class="javax.swing.JButton" binding="pos19">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="330ac" class="javax.swing.JButton" binding="pos20">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="b2cb1" class="javax.swing.JButton" binding="pos21">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="e773e" class="javax.swing.JButton" binding="pos22">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="2cd39" class="javax.swing.JButton" binding="pos23">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="b54ff" class="javax.swing.JButton" binding="pos24">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="71a9f" class="javax.swing.JButton" binding="pos25">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="ed03d" class="javax.swing.JButton" binding="pos26">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="60a9f" class="javax.swing.JButton" binding="pos27">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="365af" class="javax.swing.JButton" binding="pos28">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="78915" class="javax.swing.JButton" binding="pos29">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="77c6" class="javax.swing.JButton" binding="pos30">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="92519" class="javax.swing.JButton" binding="pos31">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="27fab" class="javax.swing.JButton" binding="pos32">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="b02e1" class="javax.swing.JButton" binding="pos33">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="618fd" class="javax.swing.JButton" binding="pos34">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="dccd8" class="javax.swing.JButton" binding="pos35">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="90783" class="javax.swing.JButton" binding="pos36">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="8fde2" class="javax.swing.JButton" binding="pos37">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="13837" class="javax.swing.JButton" binding="pos38">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="d38b7" class="javax.swing.JButton" binding="pos39">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="646f0" class="javax.swing.JButton" binding="pos40">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="3adf2" class="javax.swing.JButton" binding="pos41">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="b26aa" class="javax.swing.JButton" binding="pos42">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="108c6" class="javax.swing.JButton" binding="pos43">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="6b980" class="javax.swing.JButton" binding="pos44">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="aee65" class="javax.swing.JButton" binding="pos45">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="33229" class="javax.swing.JButton" binding="pos46">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="2960e" class="javax.swing.JButton" binding="pos47">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="1695e" class="javax.swing.JButton" binding="pos48">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="8c2d8" class="javax.swing.JButton" binding="pos49">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="f018f" class="javax.swing.JButton" binding="pos50">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="ffa75" class="javax.swing.JButton" binding="pos51">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="ff3d9" class="javax.swing.JButton" binding="pos52">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="a593" class="javax.swing.JButton" binding="pos53">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="57599" class="javax.swing.JButton" binding="pos54">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="b347a" class="javax.swing.JButton" binding="pos55">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="6c9c6" class="javax.swing.JButton" binding="pos56">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="2bf5b" class="javax.swing.JButton" binding="pos57">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="89be6" class="javax.swing.JButton" binding="pos58">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="ad43b" class="javax.swing.JButton" binding="pos59">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="729b0" class="javax.swing.JButton" binding="pos60">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="aaada" class="javax.swing.JButton" binding="pos61">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="6420f" class="javax.swing.JButton" binding="pos62">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="83c50" class="javax.swing.JButton" binding="pos63">
+            <constraints/>
+            <properties>
+              <defaultCapable value="false"/>
+              <font size="12"/>
+              <horizontalTextPosition value="2"/>
+              <label value=""/>
+              <preferredSize width="70" height="70"/>
+              <rolloverEnabled value="false"/>
+              <text value=""/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <grid id="80777" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <preferredSize width="560" height="40"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ee2eb" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="P                       Q                     X                      O                      U                     Y                      K                    H"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="597a4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <preferredSize width="170" height="490"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="12963" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <preferredSize width="170" height="400"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <scrollpane id="7dde8">
+                <constraints/>
+                <properties>
+                  <preferredSize width="170" height="400"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="a3ed0" class="javax.swing.JTextArea" binding="Infromation_fält">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="4bf8f" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <preferredSize width="90" height="65"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e072a" class="javax.swing.JButton" binding="Start">
+                <constraints/>
+                <properties>
+                  <preferredSize width="89" height="60"/>
+                  <text value="Start"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="50d8b" class="javax.swing.JButton" binding="Lisen">
+        <constraints/>
+        <properties>
+          <text value="TALA"/>
+        </properties>
+      </component>
+      <component id="8bd47" class="javax.swing.JButton" binding="switchButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="switch"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
