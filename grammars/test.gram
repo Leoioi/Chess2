@@ -1,0 +1,4 @@
+#JSGF V1.0;
+
+grammar hello;
+public <greet> = (move) ( alpha | bravo | charlie | delta | echo | foxtrot | golf | hotel ) ( one | two | three | four | five | six | seven | eight ) (to) ( alpha | bravo | charlie | delta | echo | foxtrot | golf | hotel ) ( one | two | three | four | five | six | seven | eight );
