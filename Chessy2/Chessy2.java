@@ -210,13 +210,13 @@ public class Chessy2 {
                 //xpos = ((int) result.getHypothesis().charAt(5)) - 97;
 
                 switch (result.getHypothesis().split(" ")[1]) {
-                    case ("p") -> xpos = 0;
-                    case ("q") -> xpos = 1;
-                    case ("o") -> xpos = 3;
-                    case ("u") -> xpos = 4;
-                    case ("y") -> xpos = 5;
-                    case ("k") -> xpos = 6;
-                    case ("h") -> xpos = 7;
+                    case ("alpha") -> xpos = 0;
+                    case ("bravo") -> xpos = 1;
+                    case ("delta") -> xpos = 3;
+                    case ("echo") -> xpos = 4;
+                    case ("foxtrot") -> xpos = 5;
+                    case ("golf") -> xpos = 6;
+                    case ("hotel") -> xpos = 7;
                     default -> xpos = 2;
                 }
 
@@ -233,13 +233,13 @@ public class Chessy2 {
                 }
 
                 switch (result.getHypothesis().split(" ")[4]) {
-                    case ("p") -> tillxpos = 0;
-                    case ("q") -> tillxpos = 1;
-                    case ("o") -> tillxpos = 3;
-                    case ("u") -> tillxpos = 4;
-                    case ("y") -> tillxpos = 5;
-                    case ("k") -> tillxpos = 6;
-                    case ("h") -> tillxpos = 7;
+                    case ("alpha") -> tillxpos = 0;
+                    case ("bravo") -> tillxpos = 1;
+                    case ("delta") -> tillxpos = 3;
+                    case ("echo") -> tillxpos = 4;
+                    case ("foxtrot") -> tillxpos = 5;
+                    case ("golf") -> tillxpos = 6;
+                    case ("hotel") -> tillxpos = 7;
                     default -> tillxpos = 2;
                 }
 

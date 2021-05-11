@@ -916,7 +916,7 @@
               <component id="ee2eb" class="javax.swing.JLabel">
                 <constraints/>
                 <properties>
-                  <text value="P                       Q                     X                      O                      U                     Y                      K                    H"/>
+                  <text value="alpha                 bravo             charlie             delta               echo                 foxtrot              golf|              hotel"/>
                 </properties>
               </component>
             </children>
